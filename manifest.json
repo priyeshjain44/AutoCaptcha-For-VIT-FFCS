@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    
+    "name": "AutoCaptcha",
+    
+    "description": "FFCS AutoCaptcha",
+    
+    "version": "1.0",
+    
+    "author": "Priyesh Jain",
+    
+    "browser_action": {
+      "default_icon": "logo1.png",
+      "default_title": "FFCS AutoCaptcha"
+    },
+   
+    "content_scripts":[
+      {
+        "matches":["https://academicscc.vit.ac.in/student/stud_login.asp","https://academicscc.vit.ac.in/parent/parent_login.asp"],
+        "js":["content.js"]
+      }  
+     ],
+
+    "permissions": ["activeTab", "storage", "tabs"]
+   }
+   
