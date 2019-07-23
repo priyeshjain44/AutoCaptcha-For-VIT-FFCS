@@ -1,4 +1,4 @@
-# VIT-FFCS-AutoCaptcha
+# AutoCaptcha-For-VIT-FFCS
 
 An useful tool to automatically fill the captcha for VIT FFCS student and parent login
 
